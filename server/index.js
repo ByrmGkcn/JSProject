@@ -3,6 +3,7 @@
 const Glue = require('@hapi/glue');
 const Exiting = require('exiting');
 const Manifest = require('./manifest');
+const { receiveCsvFromQueue } = require('./consumer');
 
 exports.deployment = async ({ start } = {}) => {
 
@@ -23,7 +24,7 @@ exports.deployment = async ({ start } = {}) => {
 if (require.main === module) {
 
     exports.deployment({ start: true });
-
+    receiveCsvFromQueue();
     process.on('unhandledRejection', (err) => {
 
         throw err;
