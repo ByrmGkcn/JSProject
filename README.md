@@ -19,6 +19,32 @@ Ce projet constitue une application de gestion d'une bibliothèque de films. Il 
 - Envoi d'un e-mail de bienvenue lorsqu'un utilisateur est créé
 - Notifications par e-mail lorsqu'un nouveau film est ajouté ou lorsqu'un film favori est modifié
 
+## Les routes 
+
+### Users
+- GET /users - Obtenir tous les utilisateurs
+- 
+### User
+- POST /user - Créer un nouvel utilisateur
+- DELETE /user/{id} - Supprimer un utilisateur
+- PATCH /user/{id} - Modifier un utilisateur
+- POST /user/login - Connecter un utilisateur
+  
+### Movies
+GET /movies - Affiche tous les filmes
+GET /movies/export - Exporte tous les films en CSV par mail
+
+### Movie
+POST /movie - Créer un film
+GET /movie/{id} Affiche un film
+DELETE /movie/{id} - Supprimer un film
+PATCH /movie/{id} - Modifier un film
+
+### Favorite
+GET /favorite/{userId} - Obtenir les films préféré d'un utilisateur
+POST /favorite/add - Ajoute un film aux films préférés de l'utilisateur
+DELETE /favorite/remove - Supprime le film des films préférés de l'utilisateur
+
 ## Technologies utilisées
 - Node.js
 - Docker
@@ -52,7 +78,7 @@ Accèdez au gesionnaire RabbitMq via `http://localhost:15672`
 
 `MAIL_FROM=kiera.pagac78@ethereal.email`
 
-## Auteur 
+## développeur
 
 GOKCEN Bayram
 
