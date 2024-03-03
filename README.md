@@ -33,7 +33,7 @@ Ce projet constitue une application de gestion d'une bibliothèque de films. Il 
 `docker run --name hapi-mysql -e MYSQL_ROOT_PASSWORD=hapi -e MYSQL_DATABASE=user -d -p 3307:3306 -d mysql:8 mysqld --default-authentication-plugin=mysql_native_password`
 
 `docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 -d rabbitmq:3.13-management`
-Démarrez le serveur avec `npm run start`
+Démarrez le serveur avec `npm start`
 
 Accédez au swagger via `http://localhost:3000/documentation`
 Accèdez au gesionnaire RabbitMq via `http://localhost:15672`
