@@ -40,12 +40,17 @@ Accèdez au gesionnaire RabbitMq via `http://localhost:15672`
 
 ## Variables d'environnement
 
-`MAIL_HOST=smtp.ethereal.email
-MAIL_PORT=587
-MAIL_SECURE=true
-MAIL_USER=keira.ruecker@ethereal.email
-MAIL_PASSWORD=zmwnanZmqTPmBCSfWV
-MAIL_FROM=kiera.pagac78@ethereal.email`
+`MAIL_HOST=smtp.ethereal.email`
+
+`MAIL_PORT=587`
+
+`MAIL_SECURE=true`
+
+`MAIL_USER=keira.ruecker@ethereal.email`
+
+`MAIL_PASSWORD=zmwnanZmqTPmBCSfWV`
+
+`MAIL_FROM=kiera.pagac78@ethereal.email`
 
 ## Auteur 
 
