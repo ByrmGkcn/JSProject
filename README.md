@@ -31,19 +31,19 @@ Ce projet constitue une application de gestion d'une bibliothèque de films. Il 
 - POST /user/login - Connecter un utilisateur
   
 ### Movies
-GET /movies - Affiche tous les filmes
-GET /movies/export - Exporte tous les films en CSV par mail
+- GET /movies - Affiche tous les filmes
+- GET /movies/export - Exporte tous les films en CSV par mail
 
 ### Movie
-POST /movie - Créer un film
-GET /movie/{id} Affiche un film
-DELETE /movie/{id} - Supprimer un film
-PATCH /movie/{id} - Modifier un film
+- POST /movie - Créer un film
+- GET /movie/{id} Affiche un film
+- DELETE /movie/{id} - Supprimer un film
+- PATCH /movie/{id} - Modifier un film
 
 ### Favorite
-GET /favorite/{userId} - Obtenir les films préféré d'un utilisateur
-POST /favorite/add - Ajoute un film aux films préférés de l'utilisateur
-DELETE /favorite/remove - Supprime le film des films préférés de l'utilisateur
+- GET /favorite/{userId} - Obtenir les films préféré d'un utilisateur
+- POST /favorite/add - Ajoute un film aux films préférés de l'utilisateur
+- DELETE /favorite/remove - Supprime le film des films préférés de l'utilisateur
 
 ## Technologies utilisées
 - Node.js
