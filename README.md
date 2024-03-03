@@ -29,6 +29,7 @@ Ce projet constitue une application de gestion d'une bibliothèque de films. Il 
 1. Clonez le dépôt GitHub
 2. Installez les dépendances avec `npm install`
 3. Démarrez les conteneurs Docker de base de données et RabbitMQ avec les commandes suivantes :
+   
 `docker run --name hapi-mysql -e MYSQL_ROOT_PASSWORD=hapi -e MYSQL_DATABASE=user -d -p 3307:3306 -d mysql:8 mysqld --default-authentication-plugin=mysql_native_password`
 
 `docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 -d rabbitmq:3.13-management`
