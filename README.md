@@ -78,8 +78,6 @@ Accèdez au gesionnaire RabbitMq via `http://localhost:15672`
 
 `MAIL_FROM=kiera.pagac78@ethereal.email`
 
-## développeur
-
-GOKCEN Bayram
+## GOKCEN Bayram
 
 
